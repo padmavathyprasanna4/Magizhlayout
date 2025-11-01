@@ -1,0 +1,253 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #0d4b66;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    margin: 0 10px;
+}
+/* Login/Signup styling */
+.login-signup {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-signup:hover {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+.hero {
+      background: url('Buildingimages/careerimages/career1.jpg') no-repeat center center/cover; /* Replace with your image */
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      position: relative;
+    }
+    .hero h5 {
+      color: #ffeb3b;
+      font-weight: 500;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    /* Content Section */
+    .career-content {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .career-content h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .career-content h3 {
+      font-weight: 800;
+    }
+    .career-content p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #0b0b0b;
+      font-size: 0.95rem;
+    }
+    .career-content .hr {
+      margin-top: 30px;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    .career-content .name {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    /* Job Cards */
+    .job-card {
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .job-card:hover {
+      transform: translateY(-5px);
+    }
+    .job-card .icon {
+      font-size: 40px;
+      color: #000;
+      margin-bottom: 15px;
+    }
+    .apply-btn {
+      background-color: #1e32d5!important;
+      color: white!important;
+
+      width: 130px;
+      font-weight: 600;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    .apply-btn:hover {
+      background-color: #1826b0;
+    }
+
+    .dreams-section {
+      padding: 50px 0;
+    }
+
+    .dreams-section img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      height: 230px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .dreams-section img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Grid layout: smaller row gap */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 10px;   /* small horizontal space */
+      row-gap: 0.5px;      /* tighter vertical space */
+      position: relative;
+    }
+
+    /* Slightly lower second column */
+    .image-grid img:nth-child(2),
+    .image-grid img:nth-child(4) {
+      margin-top: 24px;
+    }
+
+    .dreams-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 40px;
+    }
+
+    .dreams-text h4 {
+      font-weight: 700;
+      margin-bottom: 12px;
+      font-size: 1.7rem;
+    }
+
+    .dreams-text p {
+      color: #222;
+      max-width: 420px;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .dreams-text {
+        padding-left: 0;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .dreams-text p {
+        margin: 0 auto;
+      }
+
+      .dreams-section img {
+        height: auto;
+      }
+
+      .image-grid img:nth-child(2),
+      .image-grid img:nth-child(4) {
+        margin-top: 0;
+      }
+    }
+     footer {
+      background-color: #00486b;
+      color: #fff;
+      padding: 40px 0;
+    }
+
+    footer h5 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 8px;
+    }
+
+    footer ul li a {
+      color: #e0e0e0;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    footer ul li a:hover {
+      text-decoration: none;
+    }
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .footer-logo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      background-color: #fff;
+    }
+
+    .footer-logo h4 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .contact-info i {
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    .contact-info p {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: #e0e0e0;
+    }
+
+    @media (max-width: 768px) {
+      footer .col-md-3 {
+        margin-bottom: 20px;
+      }
+    }
